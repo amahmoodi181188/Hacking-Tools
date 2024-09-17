@@ -2,4 +2,4 @@ List of some of dedicated hacking tools with short description for they purposes
 
 1. Responder: Responder can do many different kinds of attacks, but only one of them is setting up a malicious SMB
 server.
-2. John The Ripper: Its a password hash cracking tool 
+2. John The Ripper: Its a password hash cracking tool  >> exp. "john -w=/usr/share/wordlists/rockyou.txt hash.txt"

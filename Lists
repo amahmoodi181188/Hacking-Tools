@@ -6,3 +6,4 @@ server.
 3. evil-winrm: for windoes remote connection throuhg WinRM service (get shell on windows servers) >> exp. "evil-winrm -i 10.129.136.91 -u administrator -p badminton"
 4. Gobuster: for Directory bruteforcing or domain enumeration. you can also use other tools like wfuzz or feroxbuster along gobuster for domain/subdomain enumeration. exp for directory bruteforcing: gobuster dir -u [IP address] -x php -w /usr/share/wordlists/dirb/common.txt and exp. for Sub domain enumeration: gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u
 https://[domain address]
+5. exiftool: its a tool you can add scrript and other exploits to your image file like this: "exiftool -Comment="<script>alert('XSS')</script>" image.jpg"
